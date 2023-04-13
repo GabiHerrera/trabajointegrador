@@ -1,4 +1,5 @@
 header{ 
+    flex-direction: column;
     font-family: sans-serif; 
     margin: 0px; 
     display: flex; 
@@ -7,8 +8,8 @@ header{
     padding: 1px; 
 }
 .datosinfo{
+    margin-left: 630px;
     text-align: right;
-    
 }
 
 h6{
@@ -16,8 +17,8 @@ h6{
 }
 
 .lg1 {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    flex-direction: row;
 }
 
 .lg1 img{ 
@@ -38,12 +39,14 @@ ul{
 
 .cont1 {
     display: grid;
+    margin-top: 25px;
     place-content: center;
     background-color: rgb(216, 216, 216);
     width: 100%;
     height: 500px;
 }
 .d1 {
+padding-top: 5px;
     background-color: rgb(226, 226, 226);
     width: 100%;
     height: 100px;
@@ -59,60 +62,115 @@ h3 {
     color: rgb(28, 85, 26);
     font-weight: 700;
     font-family: sans-serif;
-    margin-left: 20px;
+    text-align: center;
+
 }
 
 h2{
     color: rgb(226, 226, 226);
     background-color: rgb(34, 102, 43);
-    align-content:center;
+
+    text-align: center;
     margin-left: 130px;
     margin-right: 100px;
 }
 
 
 .contcenter {
-    display: grid;
+  display: grid;
   place-content: center  ;
     
 }
 
+.textalin{
+    text-align: center;
+}
 
+.mat{
+    justify-content: center;
+}
 #textogr{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-between;
     color: rgb(28, 85, 26);
 }
 
-#materiales{
-    padding-left: 20px;
- }
+#reciclables{
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#materiales {
+    text-align: center;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
 
- #noreciclables{
-    /*display: flex;*/
-    background-color:rgb(255, 255, 255)  ;
-    padding-left:  20px;
+}
+
+
+#noreciclables p{
+   
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     
-    
-       
-    }
+}
+
+
+.imggc{
+    margin-left: 50px;
+}
+
+.texbjimggc{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    color: rgb(28, 85, 26);
+}
+
+#textogc{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    color: rgb(28, 85, 26);
+}
+
+#textogcd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(28, 85, 26);
+}
+
+#NOgc{
+    padding-left:  40px;
+}
 
 .cont2 {
     background-color: rgb(226, 226, 226);
     width: 100%;
     height: 600px;
 }
+
 .cont3 {
     background-color: rgb(216, 216, 216);
     width: 100%;
-     height: 1100px;
+    height: 1110px;
 }
- 
 
 .cont4 {
     background-color: rgb(226, 226, 226);
     width: 100%;
-    height: 800px;
+    height: 820px;
 }
 .cont5 {
     background-color: rgb(216, 216, 216);
@@ -122,18 +180,14 @@ h2{
 .navbar {
     background-color: rgb(32, 56, 29);
 }
-.p {
-    text-align: center;
-}
+
 .container {
     font-family: sans-serif;
 }
 #c{
     color: rgb(28, 85, 26);
 }
-footer{
-    justify-content: space-between; 
-}
+
 .barrafin{
     background-color: rgb(34, 102, 43);
     height: 25px;
@@ -154,11 +208,6 @@ footer{
     font-weight: 700; 
     color: rgb(34, 102, 43);
 } 
-
-.final{
-    display: flex;
-    justify-content: space-between; 
-}
 a:link {
     text-decoration:none;
 }
@@ -173,4 +222,33 @@ a:hover {
 .home{
     margin-left: 25px;
 }
+.final p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer2{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: double;
+    border-color: rgb(44, 42, 40);
+}
 
+.pie {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+}
+
+.nosotros a{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
