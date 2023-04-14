@@ -9,7 +9,8 @@ header{
 }
 .datosinfo{
     margin-left: 630px;
-    
+    margin-right: 0px;
+    padding-right: 10px;
     text-align: right;
     place-content: right;
 }
