@@ -186,27 +186,34 @@ h2{
 
 
 
-.cont2 {
+.cont2 {display: flex;
+    flex-direction: column;
     background-color: rgb(226, 226, 226);
     width: 100%;
-    height: 600px;
+    height: 530px;
 }
+
+.cont2 a{
+    position: relative;
+    top: 350px;
+}
+
 .cont3 {
     background-color: rgb(216, 216, 216);
     width: 100%;
-    height: 950px;
+    height: 1000px;
 }
  
 
 .cont4 {
     background-color: rgb(226, 226, 226);
     width: 100%;
-    height: 820px;
+    height: 880px;
 }
 .cont5 {
     background-color: rgb(216, 216, 216);
     width: 100%;
-    height: 530px;
+    height: 550px;
 }
 .navbar {
     background-color: rgb(32, 56, 29);
