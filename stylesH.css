@@ -9,26 +9,29 @@ header{
 }
 .datosinfo{
     margin-left: 630px;
+    
     text-align: right;
+    place-content: right;
+}
+.lg1{
+    display: flex;
+    flex-direction: row;
+
 }
 
 h6{
     color:rgb(34, 102, 43);
 }
 
-.lg1 {
-    display: flex;
-    flex-direction: row;
-}
-
 .lg1 img{ 
     margin-left: 10px;
-    margin-right: 25px; 
+    margin-right: 15px; 
 } 
 
 
 .nombre_emp { 
     display: flex; 
+    margin-top: 15px;
     font-weight: 700; 
     color: rgb(46, 109, 38);
 }
@@ -40,6 +43,7 @@ ul{
 .cont1 {
     display: grid;
     margin-top: 25px;
+    padding-top: 10px;
     place-content: center;
     background-color: rgb(216, 216, 216);
     width: 100%;
@@ -82,8 +86,10 @@ h2{
     
 }
 
-.textalin{
+.textalin p{
+    width: 700px;
     text-align: center;
+    color: rgb(28, 85, 26) ;
 }
 
 .mat{
@@ -102,46 +108,109 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
+
+#cajasR{
+margin-top: 15px;
+}
+
 #materiales {
     text-align: center;
-    width: 150px;
+    width: 200px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
-
+    padding-top: 20px;
 }
 
+#plastico{
+    margin top:10px;
+}
 
-#noreciclables p{
-   
+#metal{
+    margin-top: 45px;
+}
+
+#vidrio {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#noreciclables{
     width: 250px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: space-around;
+    }
+
+#latas{
+    margin-top: 10px;
+}
+
+#focosNR  {
+    margin-top: 60px;
     
 }
 
+#cartonNR{
+    margin-top: 25px;
+}
+
+#papelNR{
+    margin-top: 50px;
+}
+#envaseNR{
+    margin-top: 20px;}
 
 .imggc{
-    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texbjimggc{
+    
     display: flex;
+    flex-direction: wrap;
     justify-content:space-between;
     text-align: center;
     color: rgb(28, 85, 26);
 }
 
+.texbjimggc p{
+    width: 215px;
+}
+
 #textogc{
     display: flex;
+    flex-direction: row;
     justify-content:space-evenly;
+    justify-content: center;
     text-align: center;
     color: rgb(28, 85, 26);
+    width: 720px;
+}
+
+#SIgc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#SIgc ul{
+    width: 300px;
+}
+
+.NOgc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 #textogcd{
@@ -173,6 +242,7 @@ h2{
     height: 820px;
 }
 .cont5 {
+    margin-top: 50px;
     background-color: rgb(216, 216, 216);
     width: 100%;
     height: 530px;
